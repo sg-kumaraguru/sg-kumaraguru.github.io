@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Kumaraguru · Full‑stack & Creative Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="max-w-6xl mx-auto px-6 md:px-10 flex justify-between items-center">
+      <a href="#" class="font-['Instrument_Serif'] text-2xl tracking-tight">Kumaraguru.</a>
+
+      <ul class="hidden md:flex gap-10">
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+
+      <button id="menu-btn" class="md:hidden text-2xl" aria-label="Menu">
+        <i class="ri-menu-line"></i>
+      </button>
+    </div>
+
+    <div id="mobile-panel">
+      <ul class="flex flex-col items-center py-8 gap-6 text-sm font-semibold uppercase tracking-widest border-t border-black/8 mt-4 bg-[#f2f0eb]/95 backdrop-blur-md">
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero" class="min-h-screen flex flex-col justify-center overflow-hidden px-6 md:px-10 pt-28 pb-20 max-w-6xl mx-auto text-center">
+    <div class="max-w-5xl">
+      <p class="mono text-lg tracking-[0.25em] uppercase text-[var(--muted)] mb-6 hero-line opacity-0">Hi, I'm Kumaraguru</p>
+
+      <h1 class="hero-line opacity-0 mb-8">
+      Full-Stack Developer building scalable
+        <em class="not-italic text-[var(--muted)]">web applications and AI-powered solutions.</em><br/>
+      </h1>
+
+      <div class="hero-line opacity-0 flex flex-col sm:flex-row gap-8 w-full justify-center">
+        <a id="resumeBtn" class="btn-primary" href="resume.pdf">
+          View Resume <i class="ri-arrow-right-up-line"></i>
+        </a>
+        <button id="contactHeroBtn" class="btn-outline">
+          Let's Talk
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-24 md:py-36 border-t border-black/8">
+      <div class="max-w-6xl mx-auto px-6 md:px-10 gap-16 md:gap-24">
+  <p class="mono text-xs tracking-[0.25em] uppercase text-[var(--muted)] mb-4 reveal">01 — About</p>
+        <h2 class="mb-8 reveal reveal-delay-1">Who I am</h2>
+        </div>
+    <div class="max-w-6xl mx-auto px-6 md:px-10 grid lg:grid-cols-2 gap-16 md:gap-24">
+      <div>
+
+        <div class="space-y-5 text-[var(--muted)] leading-relaxed text-sm md:text-base reveal reveal-delay-2 text-justify">
+          <p>I'm Kumaraguru, a Computer Science postgraduate passionate about Full-Stack Development, Artificial Intelligence, and building products that solve real-world problems. What excites me most about software development is the ability to turn ideas into something people can actually use.</p>
+          <p>My interest in technology extends beyond writing code. I'm constantly exploring new tools, AI advancements, and modern development practices to understand how software can improve the way people work and interact with information. I particularly enjoy building intelligent applications that leverage automation, search, and AI to create meaningful user experiences.</p>
+
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <div style="background:var(--dark-bg); color: var(--paper);" class="rounded-2xl p-8 h-full flex flex-col justify-between">
+          <div>
+            <p class="mono text-xs tracking-[0.25em] uppercase opacity-70 mb-8">Academic Background</p>
+            <div class="space-y-8">
+              <div>
+                <p class="text-lg font-semibold font-['DM_Sans']">M.Sc in Computer Science</p>
+                <p class="text-md opacity-80 mt-1">Bharathidasan University, Trichy</p>
+                <p class="mono text-xs mt-2 opacity-50">2024 – 2026</p>
+              </div>
+              <div class="h-px bg-white/10"></div>
+              <div>
+                <p class="text-lg font-semibold font-['DM_Sans']">B.Sc in Computer Science</p>
+                <p class="text-md opacity-80 mt-1">Government Arts College (Autonomous), Kumbakonam</p>
+                <p class="mono text-xs mt-2 opacity-50">2021 – 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-dark py-24 md:py-32">
+    <div class="max-w-6xl mx-auto px-6 md:px-10">
+      <div class="mb-14">
+
+          <p class="mono text-xs tracking-[0.25em] uppercase opacity-40 mb-3 reveal">02 — Skills</p>
+          <h2 class="reveal reveal-delay-1" style="color: var(--paper);">Tech toolkit &amp;<br/><em>expertise</em></h2>
+
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="skill-card-dark reveal">
+          <div class="skill-icon-wrap"><i class="ri-code-s-slash-line"></i></div>
+          <h3 class="text-base font-semibold mb-3" style="color: var(--paper);">Languages</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-chip-dark">JavaScript ES6+</span>
+            <span class="skill-chip-dark">Python</span>
+            <span class="skill-chip-dark">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card-dark reveal reveal-delay-1">
+          <div class="skill-icon-wrap"><i class="ri-layout-4-line"></i></div>
+          <h3 class="text-base font-semibold mb-3" style="color: var(--paper);">Frontend</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-chip-dark">React</span>
+            <span class="skill-chip-dark">Tailwind CSS</span>
+            <span class="skill-chip-dark">HTML5 / CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-card-dark reveal reveal-delay-2">
+          <div class="skill-icon-wrap"><i class="ri-server-line"></i></div>
+          <h3 class="text-base font-semibold mb-3" style="color: var(--paper);">Backend</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-chip-dark">Node.js</span>
+            <span class="skill-chip-dark">Express</span>
+            <span class="skill-chip-dark">FastAPI</span>
+          </div>
+        </div>
+
+        <div class="skill-card-dark reveal reveal-delay-1">
+          <div class="skill-icon-wrap"><i class="ri-database-2-line"></i></div>
+          <h3 class="text-base font-semibold mb-3" style="color: var(--paper);">Database</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-chip-dark">MongoDB</span>
+            <span class="skill-chip-dark">PostgreSQL</span>
+            <span class="skill-chip-dark">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card-dark reveal reveal-delay-2">
+          <div class="skill-icon-wrap"><i class="ri-robot-2-line"></i></div>
+          <h3 class="text-base font-semibold mb-3" style="color: var(--paper);">AI</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-chip-dark">LLMs</span>
+            <span class="skill-chip-dark">RAG</span>
+            <span class="skill-chip-dark">Embeddings</span>
+            <span class="skill-chip-dark">Vector DB</span>
+          </div>
+        </div>
+
+        <div class="skill-card-dark reveal reveal-delay-3">
+          <div class="skill-icon-wrap"><i class="ri-tools-line"></i></div>
+          <h3 class="text-base font-semibold mb-3" style="color: var(--paper);">Dev Tools</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-chip-dark">Git</span>
+            <span class="skill-chip-dark">GitHub</span>
+            <span class="skill-chip-dark">Postman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-24 md:py-32 border-t border-black/8">
+    <div class="max-w-6xl mx-auto px-6 md:px-10">
+      <div class="mb-14">
+        <p class="mono text-xs tracking-[0.25em] uppercase text-[var(--muted)] mb-3 reveal">03 — Projects</p>
+        <h2 class="reveal reveal-delay-1">Featured work</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-7">
+
+        <div class="project-card reveal">
+
+          <div class="mb-5">
+            <h3 class="text-2xl md:text-3xl font-['Instrument_Serif'] font-normal mb-1">MailWise</h3>
+            <p class="text-xs text-[var(--muted)] font-medium tracking-wide">AI-Powered Email Management System</p>
+          </div>
+
+          <ul class="project-bullets flex-1">
+            <li>Built an AI-driven email platform that automatically prioritizes emails, detects spam, and extracts actionable tasks from incoming messages.</li>
+            <li>Developed a RAG-based semantic search system using FAISS and sentence-transformer embeddings, enabling fast and context-aware email retrieval.</li>
+          </ul>
+
+          <a href="#" class="project-link self-start">
+            View Repository <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1">
+
+          <div class="mb-5">
+            <h3 class="text-2xl md:text-3xl font-['Instrument_Serif'] font-normal mb-1">WriteMesh</h3>
+            <p class="text-xs text-[var(--muted)] font-medium tracking-wide">Blog CMS API + Full Stack Platform</p>
+          </div>
+
+          <ul class="project-bullets flex-1">
+            <li>Developed a full-stack blogging platform with secure authentication, allowing users to create, edit, publish, and manage content seamlessly.</li>
+            <li>Designed scalable REST APIs and MongoDB-backed data models to support efficient content management and user operations.</li>
+          </ul>
+
+          <a href="#" class="project-link self-start">
+            View Repository <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="py-24 md:py-32 border-t border-black/8">
+    <div class="max-w-6xl mx-auto px-6 md:px-10">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div>
+          <p class="mono text-xs tracking-[0.25em] uppercase text-[var(--muted)] mb-4 reveal">04 — Contact</p>
+          <h2 class="mb-6 reveal reveal-delay-1">Interested in<br/><em>collaboration?</em></h2>
+          <p class="text-[var(--muted)] max-w-md leading-relaxed mb-10 text-sm md:text-base reveal reveal-delay-2">
+            Open to internships, freelance, and innovative collaborations — building scalable apps, AI tools, and high-quality digital products.
+          </p>
+
+          <a href="mailto:sg.kumaraguru@gmail.com" class="contact-cta reveal reveal-delay-2">
+            Say hello <i class="ri-arrow-right-up-line text-xl"></i>
+          </a>
+
+          <div class="mt-10 space-y-2 reveal reveal-delay-3">
+            <div class="flex items-center gap-3 text-sm text-[var(--muted)]">
+              <i class="ri-map-pin-line"></i>
+              <span>Kumbakonam, Tamil Nadu</span>
+            </div>
+            <div class="flex items-center gap-3 text-sm text-[var(--muted)]">
+              <i class="ri-mail-line"></i>
+              <a href="mailto:sg.kumaraguru@gmail.com" class="hover:text-[var(--ink)] transition font-medium">sg.kumaraguru@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-3 reveal reveal-delay-1">
+          <h3 class='text-xl'>Social Links</h3>
+          <a href="#" class="social-link group">
+            <span class="flex items-center gap-3 text-sm font-medium"><i class="ri-github-line text-lg"></i> GitHub</span>
+            <span class="mono text-xs opacity-50 group-hover:opacity-100">/sg-kumaraguru</span>
+          </a>
+          <a href="#" class="social-link group">
+            <span class="flex items-center gap-3 text-sm font-medium"><i class="ri-linkedin-line text-lg"></i> LinkedIn</span>
+            <span class="mono text-xs opacity-50 group-hover:opacity-100">/in/sg-kumaraguru</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
